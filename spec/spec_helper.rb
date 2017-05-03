@@ -7,7 +7,7 @@ require 'dm-postgres-adapter'
 require 'rspec'
 require 'capybara'
 require 'sinatra'
-require './app'
+require './app/app'
 Capybara.app = BookmarkManager
 
 
