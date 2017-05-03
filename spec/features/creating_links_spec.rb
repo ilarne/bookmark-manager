@@ -6,7 +6,7 @@ feature 'Creating links' do
     click_button 'Submit'
     expect(current_path).to eq '/links'
     within 'ul#links' do
-      expect(page).to have_content('Makers Academy')
+    expect(page).to have_content('Makers Academy')
   end
 end
 end
