@@ -8,6 +8,7 @@ property :id,  Serial
 property :title, String
 property :url, Text
 
+has n, :tags, through: Resource
 end
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/bookmark_manager_#{ENV['RACK_ENV']}")
