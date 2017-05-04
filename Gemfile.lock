@@ -112,6 +112,7 @@ DEPENDENCIES
   dm-migrations
   dm-postgres-adapter
   dm-transactions
+  rack
   rspec
   sinatra
 
