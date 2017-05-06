@@ -5,6 +5,7 @@ source "https://rubygems.org"
 ruby '2.4.0'
 
 gem 'rack'
+gem 'rake'
 gem 'dm-migrations'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
