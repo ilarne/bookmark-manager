@@ -1,5 +1,6 @@
 # Bookmark Manager
 
+A boomark management tool that uses a relational database (PostgreSQL) to store bookmarks. This project practised using a database to achieve data persistence, as well as structuring a web app with a [model-view-controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) design pattern.  
 
 ## User Stories
 ```
